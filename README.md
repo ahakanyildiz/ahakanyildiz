@@ -5,4 +5,3 @@
 - My social network accounts :
 - Instagram:@ahakanyldz
 - Linkedin:@ahakanyildz
-- 
