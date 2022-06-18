@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Ahmet Hakan Yildiz
-- 👀 I’m interested in c#, .NET, Python, SQL..
+- 👀 I’m interested in C#, .NET, Python, SQL..
 - 🌱 I’m currently learning .NET CORE
 - 📫 How to reach me ...
 - E-mail:teknomanihah@gmail.com
