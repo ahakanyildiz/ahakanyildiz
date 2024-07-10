@@ -3,5 +3,4 @@
 - 🌱 I’m currently learning .NET Core
 - 📫 How to reach me ...
 - E-mail:teknomanihah@gmail.com
-- Instagram:@ahakanyldz
 - Linkedin:@ahakanyildz
