@@ -1,0 +1,27 @@
+# Profil kartlarını (diller, istatistikler, commit dilleri, verimli saatler) her gün yeniden üretir.
+# Kartlar profile-summary-card-output/<tema>/ altına yazılır ve README'de gösterilir.
+#
+# Gizli repolar da sayılsın istenirse: "repo" yetkili bir erişim anahtarı (classic PAT) oluşturup bu
+# repoya SUMMARY_GITHUB_TOKEN adıyla secret olarak ekle. Eklenmemişse yalnızca açık repolar sayılır.
+name: Profil kartları
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # her gün 06:17 (Türkiye)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 3
+          AUTO_PUSH: true
