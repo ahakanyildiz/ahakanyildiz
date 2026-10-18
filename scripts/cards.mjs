@@ -1,4 +1,4 @@
-// Generates assets/top-langs.svg (Tokyo Night theme) from all owned, non-fork repositories,
+// Generates assets/top-langs.svg (navy/blue theme matching the profile picture) from all owned, non-fork repositories,
 // including private ones when GH_TOKEN has the "repo" scope. Only language percentages are
 // rendered; private repository names are never written anywhere.
 //
@@ -11,7 +11,8 @@ const LOGIN = process.env.GH_USER
 const SKIP = new Set(['HTML', 'CSS', 'SCSS', 'Less', 'Jupyter Notebook'])
 const LANG_COUNT = 8
 
-const C = { bg: '#1a1b27', title: '#70a5fd', label: '#a9b1d6', track: '#2a2e45' }
+// Colors match the profile picture (deep navy to electric blue)
+const C = { bg: '#071a38', title: '#1294eb', label: '#c9d7ee', track: '#14305a' }
 
 async function gql(query, variables) {
   const res = await fetch('https://api.github.com/graphql', {
