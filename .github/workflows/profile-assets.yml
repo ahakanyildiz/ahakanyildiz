@@ -1,0 +1,35 @@
+# Regenerates the "Most Used Languages" card daily (assets/top-langs.svg) with scripts/cards.mjs.
+# Private repositories are included via the METRICS_TOKEN secret (classic PAT with "repo" and
+# "read:user" scopes); only language percentages are rendered. Without the secret the step is
+# skipped and the existing card is kept.
+name: Profile cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HAS_METRICS_TOKEN: ${{ secrets.METRICS_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate languages card
+        if: env.HAS_METRICS_TOKEN == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/cards.mjs
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || (git commit -m "Update profile cards" && git push)
