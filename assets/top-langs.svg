@@ -4,7 +4,7 @@
   <text x="25" y="35" fill="#1294eb" font-size="18" font-weight="600">Most Used Languages</text>
   <mask id="bar"><rect x="25" y="52" width="350" height="8" rx="4" fill="#fff"/></mask>
   <rect x="25" y="52" width="350" height="8" rx="4" fill="#14305a"/>
-  <g mask="url(#bar)"><rect x="25.00" y="52" width="185.04" height="8" fill="#3178c6"/><rect x="210.04" y="52" width="44.78" height="8" fill="#3572A5"/><rect x="254.83" y="52" width="41.37" height="8" fill="#00ADD8"/><rect x="296.20" y="52" width="39.18" height="8" fill="#f34b7d"/><rect x="335.38" y="52" width="22.39" height="8" fill="#f1e05a"/><rect x="357.78" y="52" width="10.89" height="8" fill="#7355dd"/><rect x="368.67" y="52" width="4.07" height="8" fill="#89e051"/><rect x="372.74" y="52" width="1.00" height="8" fill="#012456"/></g>
+  <g mask="url(#bar)"><rect x="25.00" y="52" width="185.03" height="8" fill="#3178c6"/><rect x="210.03" y="52" width="44.80" height="8" fill="#3572A5"/><rect x="254.83" y="52" width="41.37" height="8" fill="#00ADD8"/><rect x="296.20" y="52" width="39.18" height="8" fill="#f34b7d"/><rect x="335.38" y="52" width="22.39" height="8" fill="#f1e05a"/><rect x="357.78" y="52" width="10.89" height="8" fill="#7355dd"/><rect x="368.67" y="52" width="4.07" height="8" fill="#89e051"/><rect x="372.74" y="52" width="1.00" height="8" fill="#012456"/></g>
   <g class="row" style="animation-delay:150ms" transform="translate(25,88)">
     <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
     <text x="16" y="0" fill="#c9d7ee" font-size="13">TypeScript 52.9%</text>
