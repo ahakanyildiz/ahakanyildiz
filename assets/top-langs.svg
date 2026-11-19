@@ -4,26 +4,26 @@
   <text x="25" y="35" fill="#1294eb" font-size="18" font-weight="600">Most Used Languages</text>
   <mask id="bar"><rect x="25" y="52" width="350" height="8" rx="4" fill="#fff"/></mask>
   <rect x="25" y="52" width="350" height="8" rx="4" fill="#14305a"/>
-  <g mask="url(#bar)"><rect x="25.00" y="52" width="173.57" height="8" fill="#3178c6"/><rect x="198.57" y="52" width="67.97" height="8" fill="#f1e05a"/><rect x="266.54" y="52" width="34.83" height="8" fill="#3572A5"/><rect x="301.37" y="52" width="31.15" height="8" fill="#00ADD8"/><rect x="332.52" y="52" width="29.50" height="8" fill="#f34b7d"/><rect x="362.01" y="52" width="8.20" height="8" fill="#7355dd"/><rect x="370.21" y="52" width="3.06" height="8" fill="#89e051"/><rect x="373.28" y="52" width="1.00" height="8" fill="#012456"/></g>
+  <g mask="url(#bar)"><rect x="25.00" y="52" width="179.34" height="8" fill="#3178c6"/><rect x="204.34" y="52" width="66.30" height="8" fill="#f1e05a"/><rect x="270.65" y="52" width="33.53" height="8" fill="#3572A5"/><rect x="304.18" y="52" width="29.96" height="8" fill="#00ADD8"/><rect x="334.13" y="52" width="28.37" height="8" fill="#f34b7d"/><rect x="362.50" y="52" width="7.89" height="8" fill="#7355dd"/><rect x="370.39" y="52" width="2.95" height="8" fill="#89e051"/><rect x="373.34" y="52" width="1.00" height="8" fill="#012456"/></g>
   <g class="row" style="animation-delay:150ms" transform="translate(25,88)">
     <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
-    <text x="16" y="0" fill="#c9d7ee" font-size="13">TypeScript 49.6%</text>
+    <text x="16" y="0" fill="#c9d7ee" font-size="13">TypeScript 51.2%</text>
   </g>
   <g class="row" style="animation-delay:240ms" transform="translate(205,88)">
     <circle cx="5" cy="-4" r="5" fill="#f1e05a"/>
-    <text x="16" y="0" fill="#c9d7ee" font-size="13">JavaScript 19.4%</text>
+    <text x="16" y="0" fill="#c9d7ee" font-size="13">JavaScript 18.9%</text>
   </g>
   <g class="row" style="animation-delay:330ms" transform="translate(25,113)">
     <circle cx="5" cy="-4" r="5" fill="#3572A5"/>
-    <text x="16" y="0" fill="#c9d7ee" font-size="13">Python 10.0%</text>
+    <text x="16" y="0" fill="#c9d7ee" font-size="13">Python 9.6%</text>
   </g>
   <g class="row" style="animation-delay:420ms" transform="translate(205,113)">
     <circle cx="5" cy="-4" r="5" fill="#00ADD8"/>
-    <text x="16" y="0" fill="#c9d7ee" font-size="13">Go 8.9%</text>
+    <text x="16" y="0" fill="#c9d7ee" font-size="13">Go 8.6%</text>
   </g>
   <g class="row" style="animation-delay:510ms" transform="translate(25,138)">
     <circle cx="5" cy="-4" r="5" fill="#f34b7d"/>
-    <text x="16" y="0" fill="#c9d7ee" font-size="13">C++ 8.4%</text>
+    <text x="16" y="0" fill="#c9d7ee" font-size="13">C++ 8.1%</text>
   </g>
   <g class="row" style="animation-delay:600ms" transform="translate(205,138)">
     <circle cx="5" cy="-4" r="5" fill="#7355dd"/>
@@ -31,7 +31,7 @@
   </g>
   <g class="row" style="animation-delay:690ms" transform="translate(25,163)">
     <circle cx="5" cy="-4" r="5" fill="#89e051"/>
-    <text x="16" y="0" fill="#c9d7ee" font-size="13">Shell 0.9%</text>
+    <text x="16" y="0" fill="#c9d7ee" font-size="13">Shell 0.8%</text>
   </g>
   <g class="row" style="animation-delay:780ms" transform="translate(205,163)">
     <circle cx="5" cy="-4" r="5" fill="#012456"/>
